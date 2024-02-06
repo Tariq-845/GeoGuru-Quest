@@ -50,6 +50,39 @@ const countryQuestions = [{
   correctAnswer: 'Peru'
 }];
 
+// --------------- Assigning elements to variables
+const questionElem = document.getElementById('quiz-question');
+const answerElem = document.querySelectorAll('.answer');
+let currentQuestionNumber = 1;
+let questionIdx = 0;
+
+// --------------- Looping through countryQuestions and displaying on page
+const displayQuestions = index => {
+  let currentQuestion = countryQuestions[index];
+  questionElem.innerText = currentQuestion.question;
+
+  for (let i = 0; i < answerElem.length; i++) {
+    answerElem[i].innerText = currentQuestion.answers[i];
+  }
+}
+
+// --------------- Event listener to check if answer is correct/incorrect
+const checkAnswer = event => {
+  let userSelectedAnswer = event.target.innerText;
+  if (userSelectedAnswer === countryQuestions[questionIdx].correctAnswer) {
+    console.log('correct');
+  } else {
+    console.log('incorrect');
+  }
+  questionIdx++;
+}
+
+for (let button of answerElem) {
+  button.addEventListener('click', checkAnswer);
+}
+
+displayQuestions(questionIdx);
+
 
 //next button
 let nextBtn = document.getElementById("next-button");
