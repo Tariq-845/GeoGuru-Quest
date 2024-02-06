@@ -102,6 +102,17 @@ function incrementScore() {
   let oldScore = parseInt(document.getElementById("score").innerText);
   document.getElementById("score").innerText = ++oldScore;
 
+  /**
+   * disabled next button once it reaches last question
+   * and alerting the user of their score
+   */
+  if (currentQuestionNumber >= countryQuestions.length) {
+    // stop timer code here
+    nextBtn.disabled = true;
+    alert(`You have completed the quiz, you got ${score} out of 10!`)
+  }
+  displayQuestions(questionIdx);
+
 }
 
 //increment current score in case of incorrect answer
