@@ -13,6 +13,13 @@
     align-items: center;
 }
 
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
 /* score area, correct/incoreect */
 
 #score {

@@ -1,3 +1,9 @@
+// start screen , question area
+let startScreen = document.querySelector(".start-screen");
+let startButton = document.getElementById("start-button");
+let questionArea = document.getElementByclass("question-area")
+
+
 const questionElem = document.getElementById('quiz-question');
 
 const countryQuestions = [{
