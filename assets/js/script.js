@@ -122,3 +122,9 @@ function incrementWrongAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
   document.getElementById("incorrect").innerText = ++oldScore;
 }
+
+//restrat button
+const restartButton = document.getElementById('restart-btn');
+restartButton.addEventListener('click', function() {
+  location.reload();
+});
