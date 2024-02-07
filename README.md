@@ -16,3 +16,35 @@
   <li>Future features</li>
   <li>Credit</li>
 </ul>
+
+<h3><ins>User Experience-UX</ins></h3>
+AS a user, I want 
+  <ul>
+<li>a geographical quiz so that I can test my knowledge .</li>
+<li>to be able to set timers, difficulty levels, and customize the quiz settings so that I can choose my preferences for the quiz.</li>
+<li>to have accessibility features, like colour contrast and adjustable font sizes so that I can have the same experience as other users.</li>
+<li>to see my current score displayed prominently on the screen so that I can track my progress. .</li>
+<li>the score area to display my highest score achieved in previous quiz sessions so that I can challenge myself and improve over time.</li>
+<li>to be able to share my quiz results so that I can show my friends and compare results.</li>
+<li>to  Include a feature for users to provide feedback on questions, so that report errors, or suggest new quiz topics.</li>
+<li>to be informed about the number of questions remaining in the quiz, so that I can anticipate how much more time I need to allocate for completing the quiz.</li>
+    </ul>
+
+<h3><ins>Features</ins></h3>
+<ul>
+<li>Start button:</li>
+<p>The start button is essential when doing a quiz because it initiates the quiz process and prevents the timer from starting prematurely.It creates a clear starting point for the quiz, allowing participants to mentally prepare and focus their attention on the questions ahead.</p>
+
+<!--add description to the features later-->
+<li>The header:</li>
+
+<li>Next button:</li>
+
+<li>Score area:</li>
+
+<li>Restart quiz button:</li>
+
+<li>Alert message when time ends:</li>
+
+</ul>
+
