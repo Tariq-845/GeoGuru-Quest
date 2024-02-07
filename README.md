@@ -83,3 +83,28 @@ were chosen as they work well together and have a simple feel that is easy to re
 
 </ul>
 
+<h3><ins>Testing</ins></h3>
+ <ul>
+ <!--Add the result plz-->
+ <li> Validator for Html is Nu Html Checker:</li>
+ <li> Validator for Css is w3c css:</li>
+ <!--add buttons and answes testing plz-->
+</ul> 
+
+<h3><ins>Deployment:</ins></h3>
+This site was deployed by completing the following steps:
+<ol>
+  <li>In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu</li>
+  <li>From the source section drop-down menu, select the Main Branch</li>
+  <li>Once the main branch has been selected, folder is set to root click save. Go back to the code tab, wait for couple of minutes for the build to finish.</li>
+  <li>refresh your repository, Go to setting, choose environment , then github pages, the link will be there.</li>
+</ol>
+<!--add deployment link here plz-->
+
+The team used Forking by following the steps:
+<ol>
+  <li>Open GitHub</li>
+  <li>Find the 'Fork' button at the top right of the page</li>
+  <li>Once you click the button the fork will be in your repository</li>
+</ol>
+
