@@ -120,11 +120,11 @@ button.addEventListener('click', checkAnswer);
 
 // Next button
 let nextBtn = document.getElementById("next-button");
-nextBtn.addEventListener("click", (displayNext = () => {
-  ++questionIdx;
+nextBtn.addEventListener("click", () => {
   resetTimer(); // Reset the timer for the next question
-  nextQuestion();
-}));
+  ++questionIdx; // Loops to next question in array
+  displayNext();
+  });
 
 // Display next question
 const displayNext = () => {
