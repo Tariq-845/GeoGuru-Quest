@@ -3,9 +3,11 @@ const startScreen = document.getElementById('start-screen');
 const startButton = document.getElementById('start-btn');
 const mainQuiz = document.getElementById('main-quiz');
 
+
 startButton.addEventListener('click', () => {
   startScreen.style.display = 'none';
   mainQuiz.style.display = 'block';
+  startTimer();
 });
 
 // --------------------- Question Array
@@ -85,16 +87,16 @@ const timeLimitInSeconds = 30; // Set the time limit for each question
 
 // Function to start the timer
 function startTimer() {
-let timeRemaining = timeLimitInSeconds;
-timer = setInterval(() => {
-  document.getElementById('timer').textContent = `Timer: ${timeRemaining}s`;
-  if (timeRemaining === 0) {
-    clearInterval(timer);
-    timeUp();
+  let timeRemaining = timeLimitInSeconds;
+  timer = setInterval(() => {
+    document.getElementById('timer').textContent = `Timer: ${timeRemaining}s`;
+    if (timeRemaining === 0) {
+      clearInterval(timer);
+      timeUp();
+    }
+    timeRemaining--;
+  }, 1000);
   }
-  timeRemaining--;
-}, 1000);
-}
 
 // Function to stop the timer at the end of the quiz
 const stopTimer = () => {
@@ -187,6 +189,3 @@ restartButton.addEventListener('click', function() {
 location.reload();
 });
 
-// Start the timer when the script loads
-startTimer();
-displayQuestions(questionIdx);  // <-- Add this line to display the first question initially
