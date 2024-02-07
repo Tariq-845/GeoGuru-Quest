@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* start screen */
+.container mt-5{
+    display: none;
+}
+
 /* next button */
 #next-button {
     padding: 10px 20px;
