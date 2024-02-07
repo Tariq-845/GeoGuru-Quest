@@ -48,3 +48,38 @@ AS a user, I want
 
 </ul>
 
+<h3><ins>Design</ins></h3>
+<ul>
+
+<li>Balsamiq wireframe</li>
+Balsamiq was used to create a low-fidelity wireframe for design purposes.
+<!--add photo-->
+
+<li>Font</li>
+<!--Add plz-->
+were chosen as they work well together and have a simple feel that is easy to read.
+
+<li>Color scheme</li>
+<!--Add plz-->
+
+</ul>
+
+<h3><ins>Technology Used</ins></h3>
+<ul>
+  <li>Languages used:</li>
+  Html5, Css3 and JavaScript.
+
+  <li>Websites:</li>
+  <ul>
+  <li>  GitHub is used as the repository for the projects code also used to create issues.</li>
+  <li>  Trello is used for organizational purposes.</li>
+  <li>  GitPod is used as a workspace.</li>
+  <li>  Google font is used to import fonts.</li>
+  <!--if no fontawsome delete-->
+  <li>  Fontawesome is used to add icons for UX purposes.</li>
+  <li>  Favicon.io is used to create favicon.</li>
+  <li>  Contrast Checker is used for accessibility and readability.</li>
+ </ul> 
+
+</ul>
+
