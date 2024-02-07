@@ -108,3 +108,18 @@ The team used Forking by following the steps:
   <li>Once you click the button the fork will be in your repository</li>
 </ol>
 
+<h3><ins>Bugs:</ins></h3>
+<!--add bugs if there any plz -->
+
+<h3><ins>Future features</ins></h3>
+Features which could be implemented in the future:
+<!--add future feature plz-->
+<ul>
+<li></li>
+</ul>
+
+<h3><ins>Credits</ins></h3>
+<!--add credit plz-->
+<ul>
+<li></li>
+</ul>
