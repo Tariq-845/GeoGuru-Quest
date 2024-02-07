@@ -16,12 +16,6 @@
 </head>
 
 <body>
-  <!--start quiz button-->
-  <div id="start-screen" class="start-screen">
-    <h1>GeoGuru Quiz</h1>
-    <h2>Test your geographical knowledge with these quiz questions!</h2>
-  <button id="start-btn">Start Quiz</button>
-  </div>
 
   <div class="container mt-5">
     <!-- Header -->
@@ -32,38 +26,44 @@
       </div>
     </header>
 
-
-    
-    <!-- Question Area -->
-    <div class="question-area">
-      <div class="row">
-        <div class="col-12 text-center" id="question">Question 1 of 10</div>
-        <div class="col-12 text-center" id="timer">Timer: 30 seconds</div>
-      </div>
-      <div class="row">
-        <div class="col-12 border mt-3" id="quiz-question">Which city is known as the 'Big Apple'?</div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-12 border mt-2 answer">New York City</div>
-        <div class="col-12 border mt-2 answer">Los Angeles</div>
-        <div class="col-12 border mt-2 answer">Chicago</div>
-        <div class="col-12 border mt-2 answer">Miami</div>
-      </div>
-    </div>
-    <!-- Next button -->
-    <button id="next-button">Next</button>
-
-
-    <!-- Score area -->
-    <div class="score-area">
-      <p class="scores">Correct Answers: <span id="score">0</span></p>
-      <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+    <!--start quiz button-->
+    <div id="start-screen">
+      <button id="start-btn">Start Quiz</button>
     </div>
 
 
-    <!-- Restart button -->
-    <button id="restart-btn">Restart Quiz</button>
+    <div id="main-quiz">
+      <!-- Question Area -->
+      <div class="question-area">
+        <div class="row">
+          <div class="col-12 text-center" id="question">Question 1 of 10</div>
+          <div class="col-12 text-center" id="timer">Timer: 30 seconds</div>
+        </div>
+        <div class="row">
+          <div class="col-12 border mt-3" id="quiz-question">Which city is known as the 'Big Apple'?</div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12 border mt-2 answer">New York City</div>
+          <div class="col-12 border mt-2 answer">Los Angeles</div>
+          <div class="col-12 border mt-2 answer">Chicago</div>
+          <div class="col-12 border mt-2 answer">Miami</div>
+        </div>
+      </div>
+      <!-- Next button -->
+      <button id="next-button">Next</button>
+
+
+      <!-- Score area -->
+      <div class="score-area">
+        <p class="scores">Correct Answers: <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+      </div>
+
+
+      <!-- Restart button -->
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

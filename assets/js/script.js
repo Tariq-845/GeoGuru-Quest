@@ -1,3 +1,13 @@
+//start screen
+const startScreen = document.getElementById('start-screen');
+const startButton = document.getElementById('start-btn');
+const mainQuiz = document.getElementById('main-quiz');
+
+startButton.addEventListener('click', () => {
+  startScreen.style.display = 'none';
+  mainQuiz.style.display = 'block';
+});
+
 // --------------------- Question Array
 const countryQuestions = [{
   question: 'Which country is known as the Land of the Rising Sun?',

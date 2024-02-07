@@ -5,8 +5,26 @@
 }
 
 /* start screen */
-.container mt-5{
+#main-quiz {
     display: none;
+}
+
+#start-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* start button */
+#start-btn {
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+
 }
 
 /* next button */
