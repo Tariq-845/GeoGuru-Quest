@@ -86,6 +86,10 @@ timer = setInterval(() => {
 }, 1000);
 }
 
+const stopTimer = () => {
+  clearTimeout(timer);
+}
+
 // Function to reset the timer
 function resetTimer() {
 clearInterval(timer);
@@ -140,6 +144,7 @@ if (questionIdx < countryQuestions.length) {
 // End quiz and display score
 const endQuiz = () => {
 alert(`You have completed the quiz. Your score is ${score} out of ${countryQuestions.length}`);
+stopTimer();
 nextBtn.disabled = true;
 };
 
