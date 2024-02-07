@@ -86,6 +86,7 @@ timer = setInterval(() => {
 }, 1000);
 }
 
+// Function to stop the timer at the end of the quiz
 const stopTimer = () => {
   clearTimeout(timer);
 }
@@ -110,12 +111,14 @@ const checkAnswer = event => {
 let userSelectedAnswer = event.target.innerText;
 if (userSelectedAnswer === countryQuestions[questionIdx].correctAnswer) {
   incrementScore();
+  event.target.style.backgroundColor = 'lightgreen';
 } else {
   incrementWrongAnswer();
+  event.target.style.backgroundColor = 'lightcoral';
 }
-questionIdx++;
+// questionIdx++; // removed as it incrementation doubled
 resetTimer(); // Reset the timer for the next question
-displayNext();
+// displayNext();
 };
 
 for (let button of answerElem) {
@@ -127,6 +130,7 @@ let nextBtn = document.getElementById("next-button");
 nextBtn.addEventListener("click", () => {
   resetTimer(); // Reset the timer for the next question
   ++questionIdx; // Loops to next question in array
+  resetAnswerColours(); // Resets the correct/incorrect colour to default
   displayNext();
   });
 
@@ -140,6 +144,13 @@ if (questionIdx < countryQuestions.length) {
   endQuiz();
 }
 };
+
+// Resetting the colour to default 
+const resetAnswerColours = () => {
+  answerElem.forEach(answer => {
+    answer.style.backgroundColor = '';
+  })
+}
 
 // End quiz and display score
 const endQuiz = () => {
