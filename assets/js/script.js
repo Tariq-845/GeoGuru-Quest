@@ -88,6 +88,7 @@ displayQuestions(questionIdx);
 //next button
 let nextBtn = document.getElementById("next-button");
 nextBtn.addEventListener("click", (displayNext = () => {
+  ++questionIdx;
   nextQuestion();
 }));
 
