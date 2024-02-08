@@ -118,6 +118,7 @@ body {
 .score-area {
     margin: 40px auto 20px auto;
     font-size: 18px;
+    text-align: center;
 }
 
 .scores {
