@@ -53,7 +53,7 @@ AS a user, I want
 
 <li>Balsamiq wireframe</li>
 Balsamiq was used to create a low-fidelity wireframe for design purposes.
-<!--add photo-->
+<p align="center"><img src="assets/images/wireframe.png" alt="Balsamiq wireframe for the quizz"></p>
 
 <li>Font</li>
 <!--Add plz-->
@@ -121,5 +121,6 @@ Features which could be implemented in the future:
 <h3><ins>Credits</ins></h3>
 <!--add credit plz-->
 <ul>
-<li></li>
+<li>Background photo is from www.pngtree.com/</li>
+<li>Score area is inspired from Love math project.</li>
 </ul>

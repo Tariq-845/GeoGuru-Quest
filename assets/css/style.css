@@ -78,6 +78,10 @@ body {
 }
 
 
+#question{
+    margin-right: 15px;
+}
+
 /* to make answer rows back ground white */
 .answer {
     background-color: #fff;
@@ -112,10 +116,10 @@ body {
 /* score area, correct/incoreect */
 
 .score-area {
-    margin: 40px;
+    margin: 40px auto 20px auto;
     font-size: 18px;
+    text-align: center;
 }
-
 
 .scores {
     display: inline-block;
@@ -137,11 +141,10 @@ body {
 }
 
 
-
 /* restart button */
 #restart-btn {
     padding: 10px 20px;
-    margin-top: 5px;
+    margin-top: 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
