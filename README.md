@@ -121,6 +121,6 @@ Features which could be implemented in the future:
 <h3><ins>Credits</ins></h3>
 <!--add credit plz-->
 <ul>
-<li>Background photo is from www.pngtree.com/</li>
+<li>Background photo is from www.pngtree.com</li>
 <li>Score area is inspired from Love math project.</li>
 </ul>
