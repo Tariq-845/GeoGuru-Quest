@@ -14,16 +14,17 @@ body {
     height: 93vh;
 }
 
+/* container fluid ? */
+.container-fluid {
+    padding: 0 15px;
+}
+
 #main-quiz {
     background-color: #fff;
     padding: 3.1em 1.8em;
-    width: 80%;
-    max-width: 37.5em;
+    width: 70%;
+    max-width: 600px;
     margin: 0 auto;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     border-radius: 0.6em;
 }
 
@@ -110,6 +111,17 @@ body {
 
 /* score area, correct/incoreect */
 
+.score-area {
+    margin: 40px;
+    font-size: 18px;
+}
+
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
 #score {
     color: green;
     font-weight: bold;
@@ -124,18 +136,7 @@ body {
     margin-bottom: 10px;
 }
 
-.score-area {
-    margin: 40px;
-    width: 50%;
-    font-size: 18px;
 
-}
-
-
-.scores {
-    display: inline-block;
-    padding: 25px;
-}
 
 /* restart button */
 #restart-btn {
@@ -147,7 +148,6 @@ body {
     font-weight: 600;
     background-color: #59c9a5;
 }
-
 /* CSS styles for medium devices */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .score-area {
