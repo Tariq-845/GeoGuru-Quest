@@ -11,6 +11,7 @@ body {
     background-image: url('../images/pngtree-travel-buildings-aircraft-bird-picture-image_940073.jpg');
     background-size: cover;
     background-position: center;
+    height: 93vh;
 }
 
 #main-quiz {
@@ -43,17 +44,23 @@ body {
     align-items: center;
     height: 50vh;
     background: url('../images/cover-photo_720.jpg') no-repeat center center/cover;
+    height: 79vh;
+}
+
+.bg-teal {
+    background-color: #59c9a5;
 }
 
 /* start button */
 #start-btn {
     padding: 10px 20px;
     width: 200px;
+    height: 150px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
-    background-color: lightgreen;
+    background-color: #59c9a5;
 
 }
 
@@ -80,12 +87,12 @@ body {
 }
 
 .answer:hover {
-  background-color: #f3f3f3;
-  transition: 0.15s ease-in;
+    background-color: #f3f3f3;
+    transition: 0.15s ease-in;
 }
 
 .answer:active {
-  background-color: #cfcece;
+    background-color: #cfcece;
 }
 
 
@@ -106,18 +113,22 @@ body {
 #score {
     color: green;
     font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
 }
 
 #incorrect {
     color: red;
     font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .score-area {
     margin: 40px;
     width: 50%;
     font-size: 18px;
-    white-space: nowrap;
+
 }
 
 
@@ -135,4 +146,25 @@ body {
     cursor: pointer;
     font-weight: 600;
     background-color: #59c9a5;
+}
+
+/* CSS styles for medium devices */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .score-area {
+        white-space: nowrap;
+    }
+}
+
+/* CSS styles for large devices */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .score-area {
+        white-space: nowrap;
+    }
+}
+
+/* CSS styles for extra large devices */
+@media screen and (min-width: 1200px) {
+    .score-area {
+        white-space: nowrap;
+    }
 }
