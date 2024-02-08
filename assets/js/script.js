@@ -142,6 +142,7 @@ let nextBtn = document.getElementById("next-button");
 nextBtn.addEventListener("click", () => {
   resetTimer(); // Reset the timer for the next question
   ++questionIdx; // Loops to next question in array
+  incrementWrongAnswer();
   displayNext();
   });
 
