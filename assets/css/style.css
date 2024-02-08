@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('assets/images/cover-photo.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* start screen */
