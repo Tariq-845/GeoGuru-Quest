@@ -2,12 +2,14 @@
 const startScreen = document.getElementById('start-screen');
 const startButton = document.getElementById('start-btn');
 const mainQuiz = document.getElementById('main-quiz');
+const heading = document.querySelector('header');
 
 
 startButton.addEventListener('click', () => {
   startScreen.style.display = 'none';
   mainQuiz.style.display = 'block';
   startTimer();
+  heading.style.display = 'none';
 });
 
 // --------------------- Question Array

@@ -8,13 +8,13 @@
 
 body {
     background-color: #f0f0f0;
-    background-image: url('assets/images/cover-photo.jpg');
+    background-image: url('../images/pngtree-travel-buildings-aircraft-bird-picture-image_940073.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #main-quiz {
-    background-color: #b5e7a0;
+    background-color: #fff;
     padding: 3.1em 1.8em;
     width: 80%;
     max-width: 37.5em;
@@ -60,7 +60,7 @@ body {
 /* timer */
 #timer,
 #question {
-    background-color: lightgreen;
+    background-color: #59c9a5;
     width: 7.5em;
     border-radius: 1.8em;
     display: flex;
@@ -98,7 +98,7 @@ body {
     cursor: pointer;
     font-weight: 600;
     float: right;
-    background-color: lightgreen;
+    background-color: #59c9a5;
 }
 
 /* score area, correct/incoreect */
@@ -134,5 +134,5 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
-    background-color: lightgreen;
+    background-color: #59c9a5;
 }
