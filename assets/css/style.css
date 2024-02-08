@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-image: url('assets/images/cover-photo.jpg');
+    background: url('../images/cover-photo_720.jpg') no-repeat center center/cover;
 }
 
 /* start button */
