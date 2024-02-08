@@ -1,3 +1,17 @@
+//start screen
+const startScreen = document.getElementById('start-screen');
+const startButton = document.getElementById('start-btn');
+const mainQuiz = document.getElementById('main-quiz');
+const heading = document.querySelector('header');
+
+
+startButton.addEventListener('click', () => {
+  startScreen.style.display = 'none';
+  mainQuiz.style.display = 'block';
+  startTimer();
+  heading.style.display = 'none';
+});
+
 // --------------------- Question Array
 const countryQuestions = [{
   question: 'Which country is known as the Land of the Rising Sun?',
@@ -75,15 +89,20 @@ const timeLimitInSeconds = 30; // Set the time limit for each question
 
 // Function to start the timer
 function startTimer() {
-let timeRemaining = timeLimitInSeconds;
-timer = setInterval(() => {
-  document.getElementById('timer').textContent = `Timer: ${timeRemaining}s`;
-  if (timeRemaining === 0) {
-    clearInterval(timer);
-    timeUp();
+  let timeRemaining = timeLimitInSeconds;
+  timer = setInterval(() => {
+    document.getElementById('timer').textContent = `Timer: ${timeRemaining}s`;
+    if (timeRemaining === 0) {
+      clearInterval(timer);
+      timeUp();
+    }
+    timeRemaining--;
+  }, 1000);
   }
-  timeRemaining--;
-}, 1000);
+
+// Function to stop the timer at the end of the quiz
+const stopTimer = () => {
+  clearTimeout(timer);
 }
 
 // Function to reset the timer
@@ -109,7 +128,7 @@ if (userSelectedAnswer === countryQuestions[questionIdx].correctAnswer) {
 } else {
   incrementWrongAnswer();
 }
-questionIdx++;
+++questionIdx; // removed as it incrementation doubled
 resetTimer(); // Reset the timer for the next question
 displayNext();
 };
@@ -120,11 +139,12 @@ button.addEventListener('click', checkAnswer);
 
 // Next button
 let nextBtn = document.getElementById("next-button");
-nextBtn.addEventListener("click", (displayNext = () => {
-  ++questionIdx;
+nextBtn.addEventListener("click", () => {
   resetTimer(); // Reset the timer for the next question
-  nextQuestion();
-}));
+  ++questionIdx; // Loops to next question in array
+  incrementWrongAnswer();
+  displayNext();
+  });
 
 // Display next question
 const displayNext = () => {
@@ -137,9 +157,17 @@ if (questionIdx < countryQuestions.length) {
 }
 };
 
+// Resetting the colour to default (commented out for now)
+// const resetAnswerColours = () => {
+//   answerElem.forEach(answer => {
+//     answer.style.backgroundColor = '';
+//   })
+// }
+
 // End quiz and display score
 const endQuiz = () => {
 alert(`You have completed the quiz. Your score is ${score} out of ${countryQuestions.length}`);
+stopTimer();
 nextBtn.disabled = true;
 };
 
@@ -161,6 +189,3 @@ restartButton.addEventListener('click', function() {
 location.reload();
 });
 
-// Start the timer when the script loads
-startTimer();
-displayQuestions(questionIdx);  // <-- Add this line to display the first question initially

@@ -1,110 +1,126 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1> GeoGuru Quiz </h1>
+<h3>project overview</h3>
+<p>Welcome to the GeoGuru Quiz! Test your knowledge of countries, capitals, landmarks, and more with our fun and educational quiz. Get ready to explore the world as you answer questions about famous places and geographical features. </p>
 
-Welcome Sara mehlis,
+<!--image here for responsive screens-->
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h3>Index:</h3>
+<ul>
+  <li>User Experience (UX)</li>
+  <li>Features</li>
+  <li>Design</li>
+  <li>Technologies Used</li>
+  <li>Testing</li>
+  <li>Deployment</li>
+  <li>Bugs</li>
+  <li>Future features</li>
+  <li>Credit</li>
+</ul>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h3><ins>User Experience-UX</ins></h3>
+AS a user, I want 
+  <ul>
+<li>a geographical quiz so that I can test my knowledge .</li>
+<li>to be able to set timers, difficulty levels, and customize the quiz settings so that I can choose my preferences for the quiz.</li>
+<li>to have accessibility features, like colour contrast and adjustable font sizes so that I can have the same experience as other users.</li>
+<li>to see my current score displayed prominently on the screen so that I can track my progress. .</li>
+<li>the score area to display my highest score achieved in previous quiz sessions so that I can challenge myself and improve over time.</li>
+<li>to be able to share my quiz results so that I can show my friends and compare results.</li>
+<li>to  Include a feature for users to provide feedback on questions, so that report errors, or suggest new quiz topics.</li>
+<li>to be informed about the number of questions remaining in the quiz, so that I can anticipate how much more time I need to allocate for completing the quiz.</li>
+    </ul>
 
-## Gitpod Reminders
+<h3><ins>Features</ins></h3>
+<ul>
+<li>Start button:</li>
+<p>The start button is essential when doing a quiz because it initiates the quiz process and prevents the timer from starting prematurely.It creates a clear starting point for the quiz, allowing participants to mentally prepare and focus their attention on the questions ahead.</p>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<!--add description to the features later-->
+<li>The header:</li>
 
-`python3 -m http.server`
+<li>Next button:</li>
 
-A blue button should appear to click: _Make Public_,
+<li>Score area:</li>
 
-Another blue button should appear to click: _Open Browser_.
+<li>Restart quiz button:</li>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<li>Alert message when time ends:</li>
 
-A blue button should appear to click: _Make Public_,
+</ul>
 
-Another blue button should appear to click: _Open Browser_.
+<h3><ins>Design</ins></h3>
+<ul>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<li>Balsamiq wireframe</li>
+Balsamiq was used to create a low-fidelity wireframe for design purposes.
+<p align="center"><img src="assets/images/wireframe.png" alt="Balsamiq wireframe for the quizz"></p>
 
-To log into the Heroku toolbelt CLI:
+<li>Font</li>
+<!--Add plz-->
+were chosen as they work well together and have a simple feel that is easy to read.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<li>Color scheme</li>
+<!--Add plz-->
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+</ul>
 
-------
+<h3><ins>Technology Used</ins></h3>
+<ul>
+  <li>Languages used:</li>
+  Html5, Css3 and JavaScript.
 
-## Release History
+  <li>Websites:</li>
+  <ul>
+  <li>  GitHub is used as the repository for the projects code also used to create issues.</li>
+  <li>  Trello is used for organizational purposes.</li>
+  <li>  GitPod is used as a workspace.</li>
+  <li>  Google font is used to import fonts.</li>
+  <!--if no fontawsome delete-->
+  <li>  Fontawesome is used to add icons for UX purposes.</li>
+  <li>  Favicon.io is used to create favicon.</li>
+  <li>  Contrast Checker is used for accessibility and readability.</li>
+ </ul> 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+</ul>
 
-**September 20 2023:** Update Python version to 3.9.17.
+<h3><ins>Testing</ins></h3>
+ <ul>
+ <!--Add the result plz-->
+ <li> Validator for Html is Nu Html Checker:</li>
+ <li> Validator for Css is w3c css:</li>
+ <!--add buttons and answes testing plz-->
+</ul> 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<h3><ins>Deployment:</ins></h3>
+This site was deployed by completing the following steps:
+<ol>
+  <li>In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu</li>
+  <li>From the source section drop-down menu, select the Main Branch</li>
+  <li>Once the main branch has been selected, folder is set to root click save. Go back to the code tab, wait for couple of minutes for the build to finish.</li>
+  <li>refresh your repository, Go to setting, choose environment , then github pages, the link will be there.</li>
+</ol>
+<!--add deployment link here plz-->
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The team used Forking by following the steps:
+<ol>
+  <li>Open GitHub</li>
+  <li>Find the 'Fork' button at the top right of the page</li>
+  <li>Once you click the button the fork will be in your repository</li>
+</ol>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<h3><ins>Bugs:</ins></h3>
+<!--add bugs if there any plz -->
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<h3><ins>Future features</ins></h3>
+Features which could be implemented in the future:
+<!--add future feature plz-->
+<ul>
+<li></li>
+</ul>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<h3><ins>Credits</ins></h3>
+<!--add credit plz-->
+<ul>
+<li>Background photo is from www.pngtree.com</li>
+<li>Score area is inspired from Love math project.</li>
+</ul>
