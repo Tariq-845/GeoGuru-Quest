@@ -76,6 +76,16 @@ body {
     font-weight: 500;
     padding: 10px;
     border-radius: 1.8em;
+    cursor: pointer;
+}
+
+.answer:hover {
+  background-color: #f3f3f3;
+  transition: 0.15s ease-in;
+}
+
+.answer:active {
+  background-color: #cfcece;
 }
 
 
