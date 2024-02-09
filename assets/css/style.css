@@ -65,6 +65,11 @@ body {
 
 }
 
+#start-btn:hover {
+  background-color: #4caa8c;
+  transition: 0.3s ease-in;
+}
+
 /* timer */
 #timer,
 #question {
@@ -113,6 +118,15 @@ body {
     background-color: #59c9a5;
 }
 
+#next-button:hover {
+  background-color: #4caa8c;
+  transition: 0.2s ease-in;
+}
+
+#next-button:active {
+  transform: scale(0.96);
+}
+
 /* score area, correct/incoreect */
 
 .score-area {
@@ -151,6 +165,16 @@ body {
     font-weight: 600;
     background-color: #59c9a5;
 }
+
+#restart-btn:hover {
+  background-color: #4caa8c;
+  transition: 0.2s ease-in;
+}
+
+#restart-btn:active {
+  transform: scale(0.96);
+}
+
 /* CSS styles for medium devices */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .score-area {
